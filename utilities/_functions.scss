@@ -31,7 +31,7 @@
 /// @param {Number} $percentage - percentage of `$color` in returned color
 /// @return {Color}
 @function tint($color, $percentage) {
-  @return mix(#fff, $color, $percentage);
+  @return mix($color, #fff, $percentage);
 }
 
 
